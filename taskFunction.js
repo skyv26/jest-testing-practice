@@ -9,4 +9,11 @@ const stringLength = (string) => {
 
 const reverseString = (string) => string.split('').reverse().join('');
 
-module.exports = { stringLength, reverseString };
+class Calculator {
+  add = (num1, num2) => num1 + num2;
+  subtract = (num1, num2) => num1 - num2;
+  multiply = (num1, num2) => num1 * num2;
+  divide = (num1, num2) => num1/num2;
+}
+
+module.exports = { stringLength, reverseString, Calculator };
