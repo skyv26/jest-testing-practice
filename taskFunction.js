@@ -7,4 +7,6 @@ const stringLength = (string) => {
   }
 };
 
-module.exports = stringLength;
+const reverseString = (string) => string.split('').reverse().join('');
+
+module.exports = { stringLength, reverseString };
