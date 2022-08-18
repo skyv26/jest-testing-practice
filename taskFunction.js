@@ -16,6 +16,10 @@ class Calculator {
   divide = (num1, num2) => num1/num2;
 }
 
-// const captilize = (string) => {}
+const capitalize = (string) => {
+  const temp = string.split('');
+  temp[0] = temp[0].toUpperCase();
+  return temp.join('');
+}
 
-module.exports = { stringLength, reverseString, Calculator };
+module.exports = { stringLength, reverseString, Calculator, capitalize };

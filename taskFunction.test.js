@@ -1,5 +1,4 @@
-const { test } = require('picomatch');
-const { stringLength, reverseString, Calculator } = require('./taskFunction');
+const { stringLength, reverseString, Calculator, capitalize } = require('./taskFunction');
 
 const calc = new Calculator();
 
@@ -57,5 +56,5 @@ describe('Calculator', () => {
 });
 
 test('Test should take `aakash` and return `Aakash`', () => {
-  expect(capitalize('aakash')).toMath('Aakash');
-})
+  expect(capitalize('aakash')).toMatch('Aakash');
+});
