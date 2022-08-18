@@ -1,0 +1,23 @@
+{
+  "name": "jest-testing-practice",
+  "version": "1.0.0",
+  "description": "In this repository I have implemented some test in order to learn more about Jest Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyv26/jest-testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyv26/jest-testing-practice/issues"
+  },
+  "homepage": "https://github.com/skyv26/jest-testing-practice#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
