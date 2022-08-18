@@ -16,4 +16,6 @@ class Calculator {
   divide = (num1, num2) => num1/num2;
 }
 
+// const captilize = (string) => {}
+
 module.exports = { stringLength, reverseString, Calculator };
